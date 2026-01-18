@@ -1,0 +1,7 @@
+# robots.txt for HG Hausmeisterservice
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://hg-hausmeisterservice.de/sitemap.xml
