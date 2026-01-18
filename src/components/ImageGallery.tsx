@@ -144,12 +144,6 @@ export default function ImageGallery() {
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                 />
               )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-0 left-0 right-0 p-4">
-                  <p className="text-xs text-[#10b981] font-semibold mb-1">{image.category}</p>
-                  <h3 className="text-lg font-bold text-white">{image.title}</h3>
-                </div>
-              </div>
             </div>
           ))}
         </div>
@@ -186,10 +180,6 @@ export default function ImageGallery() {
                 className="w-full h-auto max-h-[80vh] object-contain"
               />
             )}
-            <div className="text-center mt-4">
-              <p className="text-[#10b981] font-semibold">{images[selectedImage].category}</p>
-              <h3 className="text-2xl font-bold text-white">{images[selectedImage].title}</h3>
-            </div>
           </div>
 
           <button
