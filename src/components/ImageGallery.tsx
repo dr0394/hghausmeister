@@ -79,7 +79,7 @@ export default function ImageGallery() {
       type: 'image',
     },
     {
-      url: 'https://alkaio.com/media/2017476442284715.jpeg',
+      url: 'https://alkaio.com/media/2100412564123077.jpeg',
       title: 'Objektservice',
       category: 'Hausmeisterdienste',
       type: 'image',
