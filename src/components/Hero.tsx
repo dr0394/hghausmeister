@@ -24,8 +24,8 @@ export default function Hero({ onOpenForm }: HeroProps) {
               <span>Professionell · Zuverlässig · Nachhaltig</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
-              H.G. HAUSMEISTER<span className="text-[#10b981]">SERVICE</span><br />
+            <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-white">
+              H.G. HAUSMEISTER<br className="md:hidden" /><span className="text-[#10b981]">SERVICE</span><br />
               <span className="text-2xl md:text-3xl lg:text-4xl font-normal text-gray-300">Neubeuern & Umgebung</span>
             </h1>
 
