@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Facebook } from 'lucide-react';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -44,38 +44,49 @@ export default function Navigation() {
           {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
 
-        <ul className="hidden md:flex gap-8 list-none">
-          <li
-            className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
-            onClick={() => scrollToSection('hero')}
+        <div className="hidden md:flex items-center gap-8">
+          <ul className="flex gap-8 list-none">
+            <li
+              className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
+              onClick={() => scrollToSection('hero')}
+            >
+              Start
+            </li>
+            <li
+              className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
+              onClick={() => scrollToSection('services')}
+            >
+              Leistungen
+            </li>
+            <li
+              className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
+              onClick={() => scrollToSection('why')}
+            >
+              Warum wir
+            </li>
+            <li
+              className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
+              onClick={() => scrollToSection('faq')}
+            >
+              FAQ
+            </li>
+            <li
+              className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
+              onClick={() => scrollToSection('contact')}
+            >
+              Kontakt
+            </li>
+          </ul>
+          <a
+            href="https://www.facebook.com/share/1Z93V3oWjx/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Facebook"
+            className="text-white/80 hover:text-[#1877f2] transition-colors"
           >
-            Start
-          </li>
-          <li
-            className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
-            onClick={() => scrollToSection('services')}
-          >
-            Leistungen
-          </li>
-          <li
-            className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
-            onClick={() => scrollToSection('why')}
-          >
-            Warum wir
-          </li>
-          <li
-            className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
-            onClick={() => scrollToSection('faq')}
-          >
-            FAQ
-          </li>
-          <li
-            className="font-medium cursor-pointer text-white hover:text-[#10b981] transition-colors"
-            onClick={() => scrollToSection('contact')}
-          >
-            Kontakt
-          </li>
-        </ul>
+            <Facebook size={22} />
+          </a>
+        </div>
       </div>
 
       {isMobileMenuOpen && (
@@ -110,6 +121,17 @@ export default function Navigation() {
               onClick={() => scrollToSection('contact')}
             >
               Kontakt
+            </li>
+            <li className="px-6 py-3 border-t border-[#10b981]/30 mt-2 pt-4">
+              <a
+                href="https://www.facebook.com/share/1Z93V3oWjx/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-2 text-white hover:text-[#1877f2] transition-colors font-medium"
+              >
+                <Facebook size={20} />
+                Facebook
+              </a>
             </li>
           </ul>
         </div>
