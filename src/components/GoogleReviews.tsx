@@ -3,28 +3,22 @@ import { Star } from 'lucide-react';
 export default function GoogleReviews() {
   const reviews = [
     {
-      name: 'Andreas Weber',
+      name: 'Maria K.',
       date: 'vor 2 Wochen',
       rating: 5,
-      text: 'Sehr zuverlässiger und professioneller Service. Herr Geisler ist immer pünktlich und erledigt alle Arbeiten gründlich. Unsere Wohnanlage ist in besten Händen.',
+      text: 'Ich bin rundum zufrieden mit dem Hausmeisterservice Neubeuern. Helmut Geisler hat meinen Garten, die Pflanzen und Büsche perfekt winterfest gemacht. Alles wurde zu meiner vollsten Zufriedenheit erledigt. Er arbeitet mit viel Erfahrung und Liebe zum Detail. Absolut empfehlenswert, gerne wieder!',
     },
     {
-      name: 'Petra Schneider',
+      name: 'Stefan M.',
       date: 'vor 1 Monat',
       rating: 5,
-      text: 'Endlich ein Hausmeisterservice, auf den man sich verlassen kann! Schnelle Reaktionszeit bei Notfällen und faire Preise. Absolut empfehlenswert.',
+      text: 'Super und sehr zuverlässiger Hausmeisterservice. Auf Helmut ist Verlass 👍 Auch die Gartenbauprojekte einwandfrei!',
     },
     {
-      name: 'Michael Hoffmann',
+      name: 'Christine B.',
       date: 'vor 3 Wochen',
       rating: 5,
-      text: 'Hervorragende Arbeit beim Winterdienst. Die Gehwege wurden immer rechtzeitig geräumt. Sehr freundlicher und kompetenter Kontakt.',
-    },
-    {
-      name: 'Sabine Krause',
-      date: 'vor 2 Monaten',
-      rating: 5,
-      text: 'Wir sind sehr zufrieden mit der Gartenpflege und den Kleinreparaturen. Alles wird sauber und ordentlich erledigt. Klare Empfehlung!',
+      text: 'Ich bin sehr begeistert vom Helmut Geisler Hausmeisterservice! Herr Geisler hat meinen Garten wirklich verschönert. Er hat nicht nur einen Wassertrog installiert, sondern auch mit dem Bagger einen schönen Weg angelegt und alles rundherum bepflanzt. Das Ergebnis kann sich absolut sehen lassen!',
     },
   ];
 
