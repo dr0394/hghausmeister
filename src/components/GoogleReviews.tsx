@@ -9,7 +9,7 @@ export default function GoogleReviews() {
       text: 'Ich bin rundum zufrieden mit dem Hausmeisterservice Neubeuern. Helmut Geisler hat meinen Garten, die Pflanzen und Büsche perfekt winterfest gemacht. Alles wurde zu meiner vollsten Zufriedenheit erledigt. Er arbeitet mit viel Erfahrung und Liebe zum Detail. Absolut empfehlenswert, gerne wieder!',
     },
     {
-      name: 'Stefan M.',
+      name: 'Juliana Geisler',
       date: 'vor 1 Monat',
       rating: 5,
       text: 'Super und sehr zuverlässiger Hausmeisterservice. Auf Helmut ist Verlass 👍 Auch die Gartenbauprojekte einwandfrei!',
