@@ -15,7 +15,7 @@ export default function GoogleReviews() {
       text: 'Super und sehr zuverlässiger Hausmeisterservice. Auf Helmut ist Verlass 👍 Auch die Gartenbauprojekte einwandfrei!',
     },
     {
-      name: 'Christine B.',
+      name: 'Sonja Schröder',
       date: 'vor 3 Wochen',
       rating: 5,
       text: 'Ich bin sehr begeistert vom Helmut Geisler Hausmeisterservice! Herr Geisler hat meinen Garten wirklich verschönert. Er hat nicht nur einen Wassertrog installiert, sondern auch mit dem Bagger einen schönen Weg angelegt und alles rundherum bepflanzt. Das Ergebnis kann sich absolut sehen lassen!',
