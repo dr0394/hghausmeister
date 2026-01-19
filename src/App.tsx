@@ -18,6 +18,7 @@ import CookieButton from './components/CookieButton';
 import ContactFormModal from './components/ContactFormModal';
 import ImpressumModal from './components/ImpressumModal';
 import DatenschutzModal from './components/DatenschutzModal';
+import FacebookSection from './components/FacebookSection';
 
 function App() {
   const [isFormOpen, setIsFormOpen] = useState(false);
@@ -39,6 +40,7 @@ function App() {
       <ImageGallery />
       <FAQSection />
       <ContactSection />
+      <FacebookSection />
       <CTASection onOpenForm={() => setIsFormOpen(true)} />
       <Footer
         onOpenImpressum={() => setIsImpressumOpen(true)}

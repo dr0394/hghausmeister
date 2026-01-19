@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Clock } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Facebook } from 'lucide-react';
 
 interface FooterProps {
   onOpenImpressum: () => void;
@@ -16,9 +16,20 @@ export default function Footer({ onOpenImpressum, onOpenDatenschutz }: FooterPro
               alt="H.G. Hausmeisterservice Logo"
               className="h-16 w-auto mb-4"
             />
-            <p className="text-gray-300 leading-relaxed">
+            <p className="text-gray-300 leading-relaxed mb-4">
               Ihr zuverlässiger Partner für professionelle Objektbetreuung in Neubeuern und Umgebung.
             </p>
+            <div className="flex gap-3">
+              <a
+                href="https://www.facebook.com/profile.php?id=100063540537973"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 bg-[#1877f2] hover:bg-[#165ec4] rounded-full flex items-center justify-center transition-colors"
+                aria-label="Facebook"
+              >
+                <Facebook size={20} className="text-white" fill="white" />
+              </a>
+            </div>
           </div>
 
           <div>
