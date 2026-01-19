@@ -19,7 +19,7 @@ export default function FacebookSection() {
         </p>
 
         <a
-          href="https://www.facebook.com/profile.php?id=100063540537973"
+          href="https://www.facebook.com/share/1Z93V3oWjx/"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-3 bg-[#1877f2] hover:bg-[#165ec4] text-white font-bold py-4 px-8 text-lg transition-all shadow-lg hover:shadow-xl hover:scale-105"

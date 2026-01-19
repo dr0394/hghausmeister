@@ -21,7 +21,7 @@ export default function Footer({ onOpenImpressum, onOpenDatenschutz }: FooterPro
             </p>
             <div className="flex gap-3">
               <a
-                href="https://www.facebook.com/profile.php?id=100063540537973"
+                href="https://www.facebook.com/share/1Z93V3oWjx/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-[#1877f2] hover:bg-[#165ec4] rounded-full flex items-center justify-center transition-colors"
