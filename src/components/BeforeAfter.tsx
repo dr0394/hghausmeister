@@ -6,16 +6,10 @@ export default function BeforeAfter() {
 
   const comparisons = [
     {
-      before: 'https://images.pexels.com/photos/1268871/pexels-photo-1268871.jpeg?auto=compress&cs=tinysrgb&w=800',
-      after: 'https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Fassadenreinigung',
-      description: 'Professionelle Reinigung und Aufbereitung',
-    },
-    {
-      before: 'https://images.pexels.com/photos/2724748/pexels-photo-2724748.jpeg?auto=compress&cs=tinysrgb&w=800',
-      after: 'https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=800',
-      title: 'Gartenpflege',
-      description: 'Von verwildert zu gepflegt',
+      before: 'https://i.imgur.com/ew1qlEn.jpeg',
+      after: 'https://i.imgur.com/ew1qlEn.jpeg',
+      title: 'Professionelle Objektbetreuung',
+      description: 'Vorher und Nachher unserer Arbeit',
     },
   ];
 
