@@ -32,9 +32,7 @@ function App() {
       <Hero onOpenForm={() => setIsFormOpen(true)} />
       <ProblemSection />
       <ServicesSection />
-      <div className="hidden">
-        <BeforeAfter />
-      </div>
+      <BeforeAfter />
       <WhySection />
       <GoogleReviews />
       <ImageGallery />
