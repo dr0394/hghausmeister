@@ -19,26 +19,8 @@ export default function ImageGallery() {
       type: 'image',
     },
     {
-      url: 'https://alkaio.com/media/1437673691245953.jpeg',
-      title: 'Professionelle Betreuung',
-      category: 'Objektbetreuung',
-      type: 'image',
-    },
-    {
       url: 'https://alkaio.com/media/866172969725075.jpeg',
       title: 'Professionelle Pflege',
-      category: 'Hausmeisterdienste',
-      type: 'image',
-    },
-    {
-      url: 'https://alkaio.com/media/4265280333738134.jpeg',
-      title: 'Gebäudewartung',
-      category: 'Instandhaltung',
-      type: 'image',
-    },
-    {
-      url: 'https://alkaio.com/media/4415999958630038.jpeg',
-      title: 'Objektpflege',
       category: 'Hausmeisterdienste',
       type: 'image',
     },
