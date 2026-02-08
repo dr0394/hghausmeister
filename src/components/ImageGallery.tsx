@@ -19,12 +19,6 @@ export default function ImageGallery() {
       type: 'image',
     },
     {
-      url: 'https://alkaio.com/media/866172969725075.jpeg', 
-      title: 'Professionelle Pflege',
-      category: 'Hausmeisterdienste',
-      type: 'image',
-    },
-    {
       url: 'https://alkaio.com/media/671584949281133.jpeg',
       title: 'Außenanlagen',
       category: 'Gartenpflege',
