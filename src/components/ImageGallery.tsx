@@ -67,12 +67,6 @@ export default function ImageGallery() {
       type: 'image',
     },
     {
-      url: 'https://alkaio.com/media/773379662487179.jpeg',
-      title: 'Pflasterreinigung',
-      category: 'Reinigung',
-      type: 'image',
-    },
-    {
       url: 'https://alkaio.com/media/1609380573399244.mp4',
       title: 'Unsere Arbeiten im Video',
       category: 'Video',
