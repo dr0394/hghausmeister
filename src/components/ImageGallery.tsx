@@ -13,6 +13,12 @@ export default function ImageGallery() {
 
   const images: MediaItem[] = [
     {
+      url: 'https://alkaio.com/media/1160843629191429.jpeg',
+      title: 'Hausmeisterservice',
+      category: 'Objektbetreuung',
+      type: 'image',
+    },
+    {
       url: 'https://alkaio.com/media/866172969725075.jpeg',
       title: 'Professionelle Pflege',
       category: 'Hausmeisterdienste',
