@@ -19,7 +19,6 @@ export default function ImageGallery() {
       type: 'image',
     },
     {
-
       title: 'Professionelle Pflege',
       category: 'Hausmeisterdienste',
       type: 'image',
