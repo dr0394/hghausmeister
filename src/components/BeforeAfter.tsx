@@ -24,6 +24,14 @@ export default function BeforeAfter() {
             <h3 className="text-2xl font-bold text-[#1e3a5f] mb-2">Professionelle Pflasterreinigung</h3>
             <p className="text-gray-600">Vorher und Nachher unserer Arbeit</p>
           </div>
+
+          <div className="mt-8 relative w-full overflow-hidden border-4 border-[#10b981] shadow-lg">
+            <img
+              src="https://alkaio.com/media/1971901320200617.jpeg"
+              alt="Pflasterreinigung Ergebnis"
+              className="w-full h-auto object-cover"
+            />
+          </div>
         </div>
       </div>
     </section>
