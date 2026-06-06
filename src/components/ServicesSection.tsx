@@ -11,6 +11,7 @@ export default function ServicesSection() {
       title: 'Grundstücks- & Gartenpflege',
       icon: Trees,
       description: 'Professionelle Grünflächenpflege',
+      image: '/WhatsApp_Image_2026-06-06_at_16.51.20 copy.jpeg',
     },
     {
       title: 'Kleinreparaturen & Wartung',
